@@ -1,0 +1,10 @@
+# filepath: /home/ilekien/workspace/esp-cam/.githooks/pre-commit
+#!/bin/bash
+ROOT_DIR=$(git rev-parse --show-toplevel)
+
+for FILE in $(git diff --cached --name-only); do
+    python3 $ROOT_DIR/.githooks/insert_licences.py $FILE
+    git add $FILE
+done
+
+exit 0

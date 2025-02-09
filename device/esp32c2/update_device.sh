@@ -21,9 +21,10 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 # -----------------------------------------------------------------------------
-echo "Load environment for esp32s3"
 
-# Load the esp32s3 supported devices
+echo "Load environment for esp32c3"
+
+# Load the esp32c3 supported devices
 pushd sdk/esp-idf > /dev/null
 
 ./install.sh

@@ -1,6 +1,6 @@
-#!/bin/bash
+#!/usr/bin/env python3
 # -----------------------------------------------------------------------------
-# Copyright (c) 2025 Kien Le
+# Copyright (c) 2023-2025 Kien Le
 # Email: thaikien.kc@gmail.com
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -21,12 +21,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 # -----------------------------------------------------------------------------
-echo "Load environment for esp32s3"
 
-# Load the esp32s3 supported devices
-pushd sdk/esp-idf > /dev/null
+import os
+import datetime
 
-./install.sh
-source export.sh
+def hello_world():
+    print("Hello, world!")
 
-popd > /dev/null
+if __name__ == "__main__":
+    hello_world()
