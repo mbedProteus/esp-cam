@@ -1,5 +1,6 @@
+#!/usr/bin/env python3
 # -----------------------------------------------------------------------------
-# Copyright (c) 2025 Kien Le
+# Copyright (c) 2023-2025 Kien Le
 # Email: thaikien.kc@gmail.com
 # 
 # Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -20,8 +21,12 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 # -----------------------------------------------------------------------------
-# #!/bin/bash
 
-# Add esp32s3 as a supported device
-add_lunch_combo cam_esp32s3_debug
-add_lunch_combo cam_esp32s3_release
+import os
+import datetime
+
+def hello_world():
+    print("Hello, world!")
+
+if __name__ == "__main__":
+    hello_world()
