@@ -1,3 +1,4 @@
+#!/bin/bash
 # -----------------------------------------------------------------------------
 # Copyright (c) 2025 Kien Le
 # Email: thaikien.kc@gmail.com
@@ -20,7 +21,6 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 # THE SOFTWARE.
 # -----------------------------------------------------------------------------
-# #!/bin/bash
 
 # Add esp32s3 as a supported device
 add_lunch_combo cam_esp32s3_debug
